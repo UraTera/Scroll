@@ -1,6 +1,8 @@
 package com.tera.scroll
 
 import android.os.Bundle
+import android.os.CountDownTimer
+import android.util.Log
 import androidx.activity.SystemBarStyle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -38,13 +40,16 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initScroll() = with(binding) {
-        scroll1.setOnScrollListener { x, y ->
+        scroll1.setOnScrollChangeListener { p0, x, y, p3, p4 ->
             scroll2.scrollTo(x, y)
         }
-        scroll2.setOnScrollListener { x, y ->
+        scroll2.setOnScrollChangeListener { p0, x, y, p3, p4 ->
             scroll1.scrollTo(x, y)
         }
     }
+
+
+
 
 
 }
