@@ -3,5 +3,6 @@ The bottom container, HorizontalScrollView, is a child of ScrollView and scrolls
 
 An example of setting the color of the navigation bar.
 
-![Scroll](https://github.com/user-attachments/assets/9870c376-e528-41cc-bcb0-ea06d3705650)
+![Scroll](https://github.com/user-attachments/assets/0a078ed5-0ea7-4181-8c60-d5b7d0883974)
+
 
